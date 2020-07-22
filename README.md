@@ -165,6 +165,15 @@ Lookup Watcher generates a log file is created in $SPLUNK_HOME/var/log/splunk/ a
 Feel free to open an issue on github or use the contact author on the SplunkBase link and I will try to get back to you when possible, thanks!
 
 ## Release Notes
+### 2.5.12
+Minor changes to reports:
+`SearchHeadLevel - Search Queries summary exact match 73`
+
+`SearchHeadLevel - Search Queries summary non-exact match 73`
+
+And macro:
+`splunkadmins_audit_logs_datamodel_sub`
+
 ### 2.5.11
 Added notes around the `log_search_messages` property under [search] in limits.conf
 
