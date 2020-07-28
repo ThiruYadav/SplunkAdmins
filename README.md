@@ -166,6 +166,11 @@ Feel free to open an issue on github or use the contact author on the SplunkBase
 
 ## Release Notes
 ### 2.5.12
+New alerts:
+`SearchHeadLevel - splunk_search_messages dispatch`
+
+`SearchHeadLevel - WLM aborted searches`
+
 Minor changes to reports:
 `SearchHeadLevel - Search Queries summary exact match 73`
 
@@ -173,6 +178,14 @@ Minor changes to reports:
 
 And macro:
 `splunkadmins_audit_logs_datamodel_sub`
+
+Updated reports:
+`SearchHeadLevel - Indexer Peer Connection Failures`
+
+`SearchHeadLevel - Detect searches hitting corrupt buckets`
+
+To use splunk_search_messages sourcetype
+
 
 ### 2.5.11
 Added notes around the `log_search_messages` property under [search] in limits.conf
