@@ -179,13 +179,15 @@ Minor changes to reports:
 And macro:
 `splunkadmins_audit_logs_datamodel_sub`
 
+Updated alert:
+`SearchHeadLevel - Dashboards with all time searches set` to look for earliest= in tokens and to ignore that case
+
 Updated reports:
 `SearchHeadLevel - Indexer Peer Connection Failures`
 
 `SearchHeadLevel - Detect searches hitting corrupt buckets`
 
-To use splunk_search_messages sourcetype
-
+To use `splunk_search_messages` sourcetype
 
 ### 2.5.11
 Added notes around the `log_search_messages` property under [search] in limits.conf
