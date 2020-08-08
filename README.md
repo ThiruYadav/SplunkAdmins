@@ -187,6 +187,8 @@ Updated reports:
 
 `SearchHeadLevel - Detect searches hitting corrupt buckets`
 
+`IndexerLevel - Knowledge bundle upload stats` to handle cascading bundle replication
+
 To use `splunk_search_messages` sourcetype
 
 ### 2.5.11
